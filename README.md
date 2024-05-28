@@ -81,6 +81,8 @@
   - Implement a service class that uses the `PhilosopherRepository` to save and retrieve `Philosopher` entities.
   - Test the functionality by saving and retrieving `Philosopher` entities from the database using the data loader example we saw in class.
 
+### 🌍 Practical Exercise: Implementing a Simple Spring Data JPA Repository for the ROBOTS exercise from last week!
+
 ### 💡 Discussion
 - Reflect on how Spring Data JPA simplifies the interaction with the database, promoting a more intuitive approach to data persistence.
 - Discuss how the repository interfaces in Spring Data JPA align with the concept of abstraction and encapsulation in philosophy.
