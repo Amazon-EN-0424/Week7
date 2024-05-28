@@ -79,7 +79,7 @@
   - Define a `Philosopher` entity class with attributes such as `id`, `name`, and `school`.
   - Create a `PhilosopherRepository` interface that extends `JpaRepository<Philosopher, Long>`.
   - Implement a service class that uses the `PhilosopherRepository` to save and retrieve `Philosopher` entities.
-  - Test the functionality by saving and retrieving `Philosopher` entities from the database.
+  - Test the functionality by saving and retrieving `Philosopher` entities from the database using the data loader example we saw in class.
 
 ### 💡 Discussion
 - Reflect on how Spring Data JPA simplifies the interaction with the database, promoting a more intuitive approach to data persistence.
@@ -138,17 +138,17 @@
 - Use Spring Boot to bootstrap the application and handle the server-side logic.
 - Implement a `Wisdom` entity with attributes such as `id`, `quote`, `author`, and `category`.
 - Create a `WisdomRepository` interface that extends `JpaRepository` to perform database operations on `Wisdom` entities.
-- Develop a service class that uses the `WisdomRepository` to implement the CRUD functionality.
-- Expose endpoints or create a simple user interface to interact with the wisdom repository.
+
+
 
 ### 🚀 Implementation Steps
 - Step 1: Set up a new Spring Boot project with the required dependencies (Spring Web, Spring Data JPA, database driver).
 - Step 2: Define the `Wisdom` entity class with the necessary attributes and annotations.
 - Step 3: Create the `WisdomRepository` interface extending `JpaRepository<Wisdom, Long>`.
-- Step 4: Implement a service class that uses the `WisdomRepository` to perform CRUD operations on `Wisdom` entities.
-- Step 5: Develop endpoints or create a simple user interface to allow users to interact with the wisdom repository.
-- Step 6: Configure the database connection properties in the `application.properties` file.
-- Step 7: Test the application by performing CRUD operations on wisdom quotes.
+
+
+- Step 6: Configure the database connection properties in the `application.yaml` file.
+
 
 ### 💡 Discussion
 - Reflect on how the wisdom repository project aligns with the concept of preserving and sharing knowledge in philosophy.
